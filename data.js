@@ -25,7 +25,7 @@ window.homepageData = {
 
   experiences: [
     {
-      label: "HONORS AND AWARDS",
+      label: "HONORS & AWARDS",
       title: "Dean's Honours List",
       description: "HKU Faculty of Engineering, 2024 - 2025.",
     },
