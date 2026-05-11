@@ -465,6 +465,7 @@ h2 {
 
   .eyebrow {
     order: 1;
+    margin-bottom: 12px;
   }
 
   .portrait-frame {
@@ -481,6 +482,7 @@ h2 {
 
   .hero-subtitle {
     order: 4;
+    margin-top: 14px;
   }
 
   .project-grid {
