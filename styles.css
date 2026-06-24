@@ -357,6 +357,11 @@ h2 {
   gap: var(--section-gap);
 }
 
+.experience-grid {
+  display: grid;
+  gap: 16px;
+}
+
 .mini-card {
   display: grid;
   gap: 8px;

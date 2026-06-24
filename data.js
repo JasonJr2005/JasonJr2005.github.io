@@ -23,6 +23,14 @@ window.homepageData = {
     },
   ],
 
+  workExperiences: [
+    {
+      title: "Research Intern",
+      organization: "HKU Shanghai Cross-Innovation Lab",
+      type: "Internship",
+    },
+  ],
+
   experiences: [
     {
       label: "HONORS & AWARDS",

@@ -1,4 +1,4 @@
-const { projects = [], experiences = [] } = window.homepageData || {};
+const { projects = [], experiences = [], workExperiences = [] } = window.homepageData || {};
 
 function initialsFallback(project) {
   const fallback = document.createElement("span");
@@ -64,6 +64,25 @@ function renderProjects() {
   });
 }
 
+function renderWorkExperiences() {
+  const grid = document.querySelector("#work-experience-grid");
+  if (!grid) return;
+
+  workExperiences.forEach((role) => {
+    const card = document.createElement("article");
+    card.className = "mini-card";
+
+    const title = document.createElement("strong");
+    title.textContent = role.title;
+
+    const description = document.createElement("p");
+    description.textContent = [role.organization, role.type].filter(Boolean).join(" · ");
+
+    card.append(title, description);
+    grid.append(card);
+  });
+}
+
 function renderExperiences() {
   const grid = document.querySelector("#experience-grid");
   if (!grid) return;
@@ -124,6 +143,7 @@ function setupProjectMotion() {
 }
 
 renderProjects();
+renderWorkExperiences();
 renderExperiences();
 setupPortraitFallback();
 setupProjectMotion();
