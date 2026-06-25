@@ -386,13 +386,14 @@ h2 {
 }
 
 .mini-card strong {
-  font-size: 1.22rem;
+  font-size: 1.35rem;
   letter-spacing: -0.04em;
 }
 
 .mini-card p {
   margin: 10px 0 0;
   color: var(--muted);
+  font-size: 1.1rem;
   line-height: 1.6;
 }
 

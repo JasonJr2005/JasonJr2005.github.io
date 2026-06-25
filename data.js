@@ -27,7 +27,6 @@ window.homepageData = {
     {
       title: "Research Intern",
       organization: "HKU Shanghai Cross-Innovation Lab",
-      type: "Internship",
     },
   ],
 
